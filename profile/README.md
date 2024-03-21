@@ -10,7 +10,7 @@ Our repositories contain example code for *plugin adapters* required to connect 
 
 Plugin adapter connect to AMP using a <a href="https://en.wikipedia.org/wiki/WebSocket">WebSocket</a> connection and communicate using our dedicated *plugin adapter protocol*. The following images shows an overview of the states and messages of the protocol.
 
-<img src="https://github.com/Axini/.github/blob/main/profile/plugin_adapter_protocol.png" alt="Overview of the plugin adapter protocol.">
+<img src="https://github.com/Axini/.github/assets/164359185/f0299e5d-e369-40f0-ac71-aa82051e6c57" alt="Overview of the plugin adapter protocol.">
 
 The messages of this protocol are defined using the language independent <a href="https://protobuf.dev">Google Protocol Buffers</a>. The official Protobuf tools can generate code for many programming languages. The `*.proto` schema files describing the message structure can be found in the <a href="https://github.com/Axini/plugin-adapter-protocol">plugin adapter protocol repository</a>.
 
